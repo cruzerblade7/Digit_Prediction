@@ -6,7 +6,7 @@ from fastapi import FastAPI
 
 import numpy as np
 
-model = tf.keras.models.load_model('new_model')
+model = tf.keras.models.load_model('model')
 app = FastAPI()
 
 @app.get("/")
