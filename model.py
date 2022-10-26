@@ -41,4 +41,4 @@ plt.plot(r.history["val_accuracy"], label = "val_accuracy")
 plt.legend()
 plt.show()
 
-model.save('new_model')
+model.save('model')
